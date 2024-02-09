@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Parte 3.1 teoría",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Node"
+  ],
+  "author": "Roy Omier",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
